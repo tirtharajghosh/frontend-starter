@@ -25,6 +25,7 @@ class GoogleBtn extends Component {
 
   onFailure(response) {
     alert("Something went wrong please try again!");
+    console.log("Failure from GoogleBtn");
   }
 
   render() {

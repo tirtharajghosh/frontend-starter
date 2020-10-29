@@ -28,6 +28,7 @@ const LinkedIn = ({ authenticated }) => {
       })
       .catch((err) => {
         alert("Something went wrong please try again!");
+        console.log("Failure from LinkedIn");
         setData(JSON.stringify(err));
       });
   };

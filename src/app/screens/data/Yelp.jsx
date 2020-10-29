@@ -38,6 +38,7 @@ const Yelp = ({ dispatch, authenticated, userId }) => {
         dispatch(hideLoading());
         setDisabled(false);
         alert("Something went wrong please try again!");
+        console.log("Failure from Yelp");
         setData(JSON.stringify(err));
       });
   };
