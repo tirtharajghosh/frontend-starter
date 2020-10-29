@@ -23,7 +23,7 @@ class GoogleBtn extends Component {
     localStorage.setItem("frontend-starter", JSON.stringify(user));
   };
 
-  onFailure(response) {
+  onFailure = (response) => {
     alert("Something went wrong please try again!");
     console.log("Failure from GoogleBtn");
   }
