@@ -1,15 +1,28 @@
 {
-    "dev": {
-        "awscloudformation": {
-            "AuthRoleName": "amplify-frontendstarter-dev-175147-authRole",
-            "UnauthRoleArn": "arn:aws:iam::784380094623:role/amplify-frontendstarter-dev-175147-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::784380094623:role/amplify-frontendstarter-dev-175147-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-frontendstarter-dev-175147-deployment",
-            "UnauthRoleName": "amplify-frontendstarter-dev-175147-unauthRole",
-            "StackName": "amplify-frontendstarter-dev-175147",
-            "StackId": "arn:aws:cloudformation:us-east-1:784380094623:stack/amplify-frontendstarter-dev-175147/bab312b0-e796-11ea-b70a-0e22fadd816f",
-            "AmplifyAppId": "d34efi1x5vc0fq"
-        }
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-frontendstarter-dev-175147-authRole",
+      "UnauthRoleArn": "arn:aws:iam::784380094623:role/amplify-frontendstarter-dev-175147-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::784380094623:role/amplify-frontendstarter-dev-175147-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-frontendstarter-dev-175147-deployment",
+      "UnauthRoleName": "amplify-frontendstarter-dev-175147-unauthRole",
+      "StackName": "amplify-frontendstarter-dev-175147",
+      "StackId": "arn:aws:cloudformation:us-east-1:784380094623:stack/amplify-frontendstarter-dev-175147/bab312b0-e796-11ea-b70a-0e22fadd816f",
+      "AmplifyAppId": "d34efi1x5vc0fq"
     }
+  },
+  "develop": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-frontendstarter-develop-121345-authRole",
+      "UnauthRoleArn": "arn:aws:iam::784380094623:role/amplify-frontendstarter-develop-121345-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::784380094623:role/amplify-frontendstarter-develop-121345-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-frontendstarter-develop-121345-deployment",
+      "UnauthRoleName": "amplify-frontendstarter-develop-121345-unauthRole",
+      "StackName": "amplify-frontendstarter-develop-121345",
+      "StackId": "arn:aws:cloudformation:us-east-1:784380094623:stack/amplify-frontendstarter-develop-121345/1ed37620-19b2-11eb-965d-0ac49251e793",
+      "AmplifyAppId": "d34efi1x5vc0fq"
+    }
+  }
 }
